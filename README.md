@@ -39,13 +39,13 @@ The most informative faithfulness was obtained under the **5% masking** setting.
 |-- pathmnist_data\
 |-- models\
 │   -- best_pathmnist_cnn.pth\
-│   |-- faithfulness\
 │   |-- gradcam\
 │   │   |-- correct\
 │   │   |-- incorrect\
 │   |-- integrated_gradients\
 │   |   |-- correct\
 │   |   |-- incorrect\
+|   |-- faithfulness\
 |-- download_pathmnist_dataset.py\
 |-- cnn_train_pathmnist_dataset.py\
 |-- evaluate_pathmnist_dataset.py\
