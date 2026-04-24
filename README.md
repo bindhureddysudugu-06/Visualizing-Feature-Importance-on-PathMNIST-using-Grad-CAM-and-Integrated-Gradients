@@ -33,12 +33,12 @@ Average confidence drop under different masking ratios (5%, 10%, 20%):
 | 20%          | 0.7385   | 0.5401               | 0.7350         |
 
 ### Main Observation
-The most informative faithfulness was obtained under the 5% masking setting. At this level, Grad-CAM and Integrated Gradients performed better than random masking, and Grad-CAM demonstrated a highest faithfulness.
+The most informative faithfulness was obtained under the **5% masking** setting. At this level, Grad-CAM and Integrated Gradients performed better than random masking, and Grad-CAM demonstrated a highest faithfulness.
 
 ## Project Structure
 |-- pathmnist_data\
 |-- models\
-│   -- best_pathmnist_cnn.pth
+│   -- best_pathmnist_cnn.pth\
 │   |-- faithfulness\
 │   |-- gradcam\
 │   │   |-- correct\
@@ -54,6 +54,6 @@ The most informative faithfulness was obtained under the 5% masking setting. At 
 |-- plot_confusion_matrix_pathmnist_dataset.py\
 |-- faithfulness_test_pathmnist_dataset_top5imp_pixels.py\
 |-- faithfulness_test_pathmnist_dataset_top10imp_pixels.py\
-|-- faithfulness_test_pathmnist_dataset_top5imp_pixels.py\
+|-- faithfulness_test_pathmnist_dataset_top5imp_pixels.py
 
 
