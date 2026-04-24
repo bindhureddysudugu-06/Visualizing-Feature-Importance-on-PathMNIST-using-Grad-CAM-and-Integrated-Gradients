@@ -46,14 +46,14 @@ The most informative faithfulness was obtained under the 5% masking setting. At 
 │   |-- integrated_gradients\
 │      |-- correct\
 │      |-- incorrect\
-|-- download_pathmnist_dataset.py
-|-- cnn_train_pathmnist_dataset.py
-|-- evaluate_pathmnist_dataset.py
-|-- gradcam_pathmnist_dataset.py
-|-- integrated_gradients_pathmnist_dataset.py
-|-- plot_confusion_matrix_pathmnist_dataset.py
-|-- faithfulness_test_pathmnist_dataset_top5imp_pixels.py
-|-- faithfulness_test_pathmnist_dataset_top10imp_pixels.py
-|-- faithfulness_test_pathmnist_dataset_top5imp_pixels.py
+|-- download_pathmnist_dataset.py\
+|-- cnn_train_pathmnist_dataset.py\
+|-- evaluate_pathmnist_dataset.py\
+|-- gradcam_pathmnist_dataset.py\
+|-- integrated_gradients_pathmnist_dataset.py\
+|-- plot_confusion_matrix_pathmnist_dataset.py\
+|-- faithfulness_test_pathmnist_dataset_top5imp_pixels.py\
+|-- faithfulness_test_pathmnist_dataset_top10imp_pixels.py\
+|-- faithfulness_test_pathmnist_dataset_top5imp_pixels.py\
 
 
