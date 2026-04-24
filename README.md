@@ -44,8 +44,8 @@ The most informative faithfulness was obtained under the **5% masking** setting.
 │   │   |-- correct\
 │   │   |-- incorrect\
 │   |-- integrated_gradients\
-│      |-- correct\
-│      |-- incorrect\
+│   |   |-- correct\
+│   |   |-- incorrect\
 |-- download_pathmnist_dataset.py\
 |-- cnn_train_pathmnist_dataset.py\
 |-- evaluate_pathmnist_dataset.py\
